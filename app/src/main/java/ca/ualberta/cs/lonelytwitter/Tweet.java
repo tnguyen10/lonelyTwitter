@@ -9,6 +9,7 @@ import java.util.Date;
 public abstract class Tweet {
     protected String message;
     protected Date date;
+    protected Emotion[] emotions;
 
 
     public void setMessage(String message) throws TooLongTweetException{
