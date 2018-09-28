@@ -15,6 +15,7 @@ import java.util.Date;
 import android.app.Activity;
 import android.content.Context;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
@@ -50,16 +51,13 @@ public class LonelyTwitterActivity extends Activity {
 			public void onClick(View v) {
 				String text = bodyText.getText().toString();
 				ImportantTweet newTweet = new ImportantTweet();
-				try {
-					newTweet.setMessage(text);
-					newTweet.setDate(new Date());
-					tweets.add(newTweet);
-					adapter.notifyDataSetChanged();
-					saveInFile();
+				newTweet.setMessage(text);
+				newTweet.setDate(new Date());
+				tweets.add(newTweet);
+				adapter.notifyDataSetChanged();
+				saveInFile();
 
-				} catch (TooLongTweetException e){
 
-				}
 
 			}
 		});
@@ -88,7 +86,7 @@ public class LonelyTwitterActivity extends Activity {
 			InputStreamReader isr = new InputStreamReader(fis);
 			BufferedReader reader = new BufferedReader(isr);
 			Gson gson = new Gson();
-			Type listTweetType = new TypeToken<ArrayList<Tweet>>(){}.getType();
+			Type listTweetType = new TypeToken<ArrayList<ImportantTweet>>(){}.getType();
 			tweets = gson.fromJson(reader, listTweetType);
 
 		} catch (FileNotFoundException e) {

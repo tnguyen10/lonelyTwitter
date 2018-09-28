@@ -12,10 +12,8 @@ public abstract class Tweet {
     protected Emotion[] emotions;
 
 
-    public void setMessage(String message) throws TooLongTweetException{
-        if (this.message.length() > 140){
-            throw new TooLongTweetException();
-        }
+    public void setMessage(String message) {
+
         this.message = message;
     }
 
