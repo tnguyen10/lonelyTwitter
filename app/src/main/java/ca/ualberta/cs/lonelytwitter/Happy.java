@@ -13,7 +13,7 @@ import java.util.Date;
  */
 
 /**
- * Represents a Tweet
+ * Represents a Happy
  *
  * @author Yeva Nguyen
  * @version 1.0

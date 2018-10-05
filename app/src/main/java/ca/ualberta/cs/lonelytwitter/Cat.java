@@ -11,7 +11,7 @@ import android.util.Log;
  */
 
 /**
- * Represents a Tweet
+ * Represents a Cat
  *
  * @author Yeva Nguyen
  * @version 1.0

@@ -11,7 +11,7 @@ import android.text.BoringLayout;
  */
 
 /**
- * Represents a Tweet
+ * Represents a ImportantTweet
  *
  * @author Yeva Nguyen
  * @version 1.0

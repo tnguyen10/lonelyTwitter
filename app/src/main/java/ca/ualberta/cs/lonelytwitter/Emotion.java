@@ -11,7 +11,7 @@ import java.util.Date;
  */
 
 /**
- * Represents a Tweet
+ * Represents a Emotion
  *
  * @author Yeva Nguyen
  * @version 1.0

@@ -30,7 +30,7 @@ import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 
 /**
- * Represents a Tweet
+ * Represents a LonelyTwitterActivity
  *
  * @author Yeva Nguyen
  * @version 1.0

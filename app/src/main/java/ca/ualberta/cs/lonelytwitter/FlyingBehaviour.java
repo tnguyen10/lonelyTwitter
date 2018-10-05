@@ -9,7 +9,7 @@ package ca.ualberta.cs.lonelytwitter;
  */
 
 /**
- * Represents a Tweet
+ * Represents a FlyingBehaviour
  *
  * @author Yeva Nguyen
  * @version 1.0

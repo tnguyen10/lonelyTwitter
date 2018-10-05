@@ -10,7 +10,7 @@ package ca.ualberta.cs.lonelytwitter;
  */
 
 /**
- * Represents a Tweet
+ * Represents a NormalTweet
  *
  * @author Yeva Nguyen
  * @version 1.0
