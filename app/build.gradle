@@ -1,15 +1,15 @@
 apply plugin: 'com.android.application'
 android {
-    compileSdkVersion 18
-    buildToolsVersion "22.0.1"
+    compileSdkVersion 26
+    buildToolsVersion '26.0.2'
 
     defaultConfig {
         applicationId "ca.ualberta.cs.lonelytwitter"
         minSdkVersion 18
         targetSdkVersion 18
         compileOptions {
-            sourceCompatibility JavaVersion.VERSION_1_5
-            targetCompatibility JavaVersion.VERSION_1_5
+            sourceCompatibility JavaVersion.VERSION_1_8
+            targetCompatibility JavaVersion.VERSION_1_8
         }
     }
 
@@ -23,6 +23,10 @@ android {
 
 dependencies {
     compile 'com.jayway.android.robotium:robotium-solo:5.6.3'
-    compile 'com.android.support:appcompat-v7:18.0.0'
+    compile 'com.android.support:appcompat-v7:26.0.0'
     compile files('src/include/jest-droid-2.0.1-SNAPSHOT.jar')
+    // jest documentaion https://github.com/searchbox-io/Jest/tree/master/jest
+    compile 'org.elasticsearch:elasticsearch:5.2.1'
+    compile 'org.slf4j:slf4j-log4j12:1.6.1'
+
 }
