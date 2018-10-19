@@ -11,7 +11,7 @@ public abstract class Tweet {
 
     public Tweet(String message){
         this.message = message;
-        this.date = new Date();
+        this.date = new Date(System.currentTimeMillis());
     }
 
     public Tweet(String message, Date date){
