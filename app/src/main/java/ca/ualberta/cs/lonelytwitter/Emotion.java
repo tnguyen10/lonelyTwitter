@@ -22,7 +22,7 @@ import java.util.Date;
 
 public abstract class Emotion {
 
-    protected Date date;
+    private Date date;
 
     /**
      * set the date to current date

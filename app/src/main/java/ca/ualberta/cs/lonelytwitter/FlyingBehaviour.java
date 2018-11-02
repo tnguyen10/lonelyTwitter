@@ -21,5 +21,5 @@ public interface FlyingBehaviour {
     /**
      * check if animal likes flying
      */
-    public void doesLikeFlying();
+    void doesLikeFlying();
 }

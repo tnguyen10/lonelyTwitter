@@ -4,7 +4,6 @@
 
 package ca.ualberta.cs.lonelytwitter;
 
-import android.text.BoringLayout;
 
 /**
  * Created by tnguyen1 on 9/20/18.

@@ -21,8 +21,8 @@ import java.util.Date;
  */
 
 public abstract class Tweet {
-    protected String message;
-    protected Date date;
+    private String message;
+    private Date date;
     protected Emotion[] emotions;
 
 
